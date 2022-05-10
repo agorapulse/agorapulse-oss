@@ -9,7 +9,7 @@ to ensure you are using the latest versions of the libraries:
 [source,groovy,role="primary",subs='verbatim,attributes']
 .Gradle
 ----
-dependnecies {
+dependencies {
     implementation platform('com.agorapulse:agorapulse-oss:{project-version}')
 }
 ----
