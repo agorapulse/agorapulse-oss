@@ -1,5 +1,9 @@
 ## Next Release
 
+### Groovy REST Unit Test Framework 1.1.1
+
+* throwing explanatory exception for Groovy issue with `get` method
+
 ### Groovy REST Unit Test Framework 1.1.0
 
 * BREAKING CHANGE: test methods for HTTP verbs no accepts only `String` not `CharSequence`
