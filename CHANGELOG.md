@@ -1,5 +1,10 @@
 ## Next Release
 
+### Groovy REST Unit Test Framework 1.1.0
+
+* BREAKING CHANGE: test methods for HTTP verbs no accepts only `String` not `CharSequence`
+* Automatic language reference for IntelliJ
+
 ### Agorapulse AWS SDK 1.7.3-micronaut-1.0
 
 * support for incremental annotation processing
