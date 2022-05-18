@@ -1,5 +1,9 @@
 ## Next Release
 
+### Micronaut Worker 1.2.1-micronaut-1.0
+
+* new helper methods in the `JobManager` class
+
 ### Groovy REST Unit Test Framework 1.1.1
 
 * throwing explanatory exception for Groovy issue with `get` method
