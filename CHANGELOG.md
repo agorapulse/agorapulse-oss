@@ -1,5 +1,11 @@
 ## Next Release
 
+### Micronaut Log4AWS 2.0.6-micronaut-1.0
+
+* `TagHelper` class to handle MDC
+* use MDC based filter with setting `sentry.filter.type` to `mdc`
+* use reactive-based filter with setting `sentry.filter.type` to `reactive`
+
 ### Micronaut Worker 1.2.1-micronaut-1.0
 
 * new helper methods in the `JobManager` class
