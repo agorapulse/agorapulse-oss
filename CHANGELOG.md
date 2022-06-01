@@ -1,5 +1,16 @@
 ## Next Release
 
+### Agorapulse AWS SDK 2.0.0-micronaut-1.0
+
+* new Kotlin DSL for DynamoDB v2
+* ability to use reactive implementation from the supported ones for DynamoDB declarative services
+* mirroring the DynamoDB v2 annotations which can be also used on fields
+* fixed writing DynamoDB v2 entities using Groovy 3.x
+
+### BREAKING CHANGE
+* removed all references to `io.reactivex.Flowable` from the API in favor of `org.reactivestreams.Publisher`
+
+
 ### Micronaut Log4AWS 2.0.6-micronaut-1.0
 
 * `TagHelper` class to handle MDC
