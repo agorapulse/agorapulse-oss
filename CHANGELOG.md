@@ -1,5 +1,10 @@
 ## Next Release
 
+### Groovy REST Unit Test Framework 1.1.2
+
+* Gru BOM (#64)
+* Gru Kotlin (#55)
+
 ### Agorapulse AWS SDK 2.0.0-micronaut-1.0
 
 * new Kotlin DSL for DynamoDB v2
