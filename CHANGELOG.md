@@ -1,5 +1,9 @@
 ## Next Release
 
+### Micronaut Facebook SDK 0.5.2-micornaut-1.0
+
+* introduced BOM
+
 ### Groovy REST Unit Test Framework 1.1.2
 
 * Gru BOM (#64)
