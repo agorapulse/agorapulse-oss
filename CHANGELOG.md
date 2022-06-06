@@ -1,5 +1,9 @@
 ## Next Release
 
+### Groovy REST Unit Test Framework 1.2.0
+
+* calling `close` on the `Gru` instance does not reset configurations which allows reusing the instance in DI containers such as Spring or Micronaut (fixes #68)
+
 ### Micronaut Facebook SDK 0.5.2-micornaut-1.0
 
 * introduced BOM
