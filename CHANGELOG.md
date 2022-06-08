@@ -1,5 +1,9 @@
 ## Next Release
 
+### Groovy REST Unit Test Framework 1.2.1
+
+* fixed error for integration tests without web app (#71 thanks to @driverpt)
+
 ### Groovy REST Unit Test Framework 1.2.0
 
 * calling `close` on the `Gru` instance does not reset configurations which allows reusing the instance in DI containers such as Spring or Micronaut (fixes #68)
