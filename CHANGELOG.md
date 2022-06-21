@@ -1,5 +1,9 @@
 ## Next Release
 
+### Agorapulse AWS SDK 2.0.1-micronaut-1.0
+
+* fixed repeated initialization of metadata table in the cache
+
 ### Groovy REST Unit Test Framework 1.2.1
 
 * fixed error for integration tests without web app (#71 thanks to @driverpt)
