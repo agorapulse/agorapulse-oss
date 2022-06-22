@@ -1,5 +1,9 @@
 ## Next Release
 
+### Groovy REST Unit Test Framework 1.2.2
+
+* support for header matchers #72 thanks to @driverpt 
+
 ### Agorapulse AWS SDK 2.0.1-micronaut-1.0
 
 * fixed repeated initialization of metadata table in the cache
