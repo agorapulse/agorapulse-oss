@@ -1,5 +1,9 @@
 ## Next Release
 
+### Micronaut Log4AWS 2.0.7-micronaut-1.0
+
+* helper classes and interfaces to ensure logging 
+
 ### Groovy REST Unit Test Framework 1.2.2
 
 * support for header matchers #72 thanks to @driverpt 
