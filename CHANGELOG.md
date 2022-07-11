@@ -1,5 +1,9 @@
 ## Next Release
 
+### Micronaut Newrelic Library 1.1.3-micronaut-1.0
+
+* support for unsafe calls
+
 ### Micronaut Log4AWS 2.0.8-micronaut-1.0
 
 BREAKING CHANGE: removed the `Logging*` interface as they fails when deployed
