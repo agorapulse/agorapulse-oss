@@ -1,5 +1,9 @@
 ## Next Release
 
+### Micronaut Log4AWS 2.0.8-micronaut-1.0
+
+BREAKING CHANGE: removed the `Logging*` interface as they fails when deployed
+
 ### Micronaut Log4AWS 2.0.7-micronaut-1.0
 
 * helper classes and interfaces to ensure logging 
