@@ -1,5 +1,9 @@
 ## Next Release
 
+### Micronaut Log4AWS 2.0.9-micronaut-1.0
+
+* longer timeout for sentry flush
+
 ### Micronaut Newrelic Library 1.1.3-micronaut-1.0
 
 * support for unsafe calls
