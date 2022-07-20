@@ -1,5 +1,9 @@
 ## Next Release
 
+### Amazon Web Services SDK Grails Plugin 2.4.15
+
+* added missing `@Slf4j` annotation for the Kinesis `AbstractClientService` 
+
 ### Micronaut Log4AWS 2.0.9-micronaut-1.0
 
 * longer timeout for sentry flush
