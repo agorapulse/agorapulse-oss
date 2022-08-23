@@ -1,5 +1,9 @@
 ## Next Release
 
+### Groovy REST Unit Test Framework 1.2.3
+
+* support for reusing existing `RequestStreamingHandler` in `ApiGatewayProxy` integration
+
 ### Amazon Web Services SDK Grails Plugin 2.4.15
 
 * added missing `@Slf4j` annotation for the Kinesis `AbstractClientService` 
