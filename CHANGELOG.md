@@ -1,5 +1,9 @@
 ## Next Release
 
+### Agorapulse AWS SDK 2.0.2-micronaut-1.0
+
+* fixed `Map` properties in DynamoDB v2 entities #111 
+
 ### Groovy REST Unit Test Framework 1.2.3
 
 * support for reusing existing `RequestStreamingHandler` in `ApiGatewayProxy` integration
