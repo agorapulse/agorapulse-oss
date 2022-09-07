@@ -1,5 +1,9 @@
 ## Next Release
 
+### Micronaut Snitch 1.2.1-micronaut-1.0
+
+* fixed documentation publishing
+
 ### Agorapulse AWS SDK 2.0.2-micronaut-1.0
 
 * fixed `Map` properties in DynamoDB v2 entities #111 
