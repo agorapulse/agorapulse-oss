@@ -1,5 +1,9 @@
 ## Next Release
 
+### Groovy REST Unit Test Framework 1.2.4
+
+* automatic extended timeouts for debug sessions
+
 ### Micronaut Snitch 1.2.1-micronaut-1.0
 
 * fixed documentation publishing
