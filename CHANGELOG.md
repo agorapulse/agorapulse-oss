@@ -1,5 +1,9 @@
 ## Next Release
 
+### Agorapulse AWS SDK 2.0.4-micronaut-1.0
+
+* co-release to internal repository
+
 ### Agorapulse AWS SDK 2.0.3-micronaut-1.0
 
 * Lambda client support
