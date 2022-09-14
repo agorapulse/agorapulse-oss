@@ -1,5 +1,10 @@
 ## Next Release
 
+### Agorapulse AWS SDK 2.0.3-micronaut-1.0
+
+* Lambda client support
+* Fixed table name for Kinesis Worker
+
 ### Groovy REST Unit Test Framework 1.2.4
 
 * automatic extended timeouts for debug sessions
