@@ -1,5 +1,10 @@
 ## Next Release
 
+### Micronaut Worker 1.2.2-micronaut-1.0
+
+* moved job logging to debug
+* SQS v2 support
+
 ### Agorapulse AWS SDK 2.0.4-micronaut-1.0
 
 * co-release to internal repository
