@@ -1,5 +1,9 @@
 ## Next Release
 
+### Micronaut Slack 1.0.2-micronaut-1.0
+
+* S3 support
+
 ### Micronaut Slack 1.0.1-micronaut-1.0
 
 * documentation fix - no code change
