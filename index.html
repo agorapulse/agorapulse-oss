@@ -92,7 +92,7 @@ $(addBlockSwitches);
 <h1>Agorapulse OSS Hub</h1>
 <div class="details">
 <span id="author" class="author">Vladimir Orany</span><br>
-<span id="revnumber">version 2022.5.10.1359</span>
+<span id="revnumber">version 2022.9.27.0443</span>
 </div>
 <div id="toc" class="toc2">
 <div id="toctitle">Table of Contents</div>
@@ -111,8 +111,9 @@ $(addBlockSwitches);
 <li><a href="#_micronaut_recurly">2.9. Micronaut Recurly</a></li>
 <li><a href="#_micronaut_rethrow">2.10. Micronaut Rethrow</a></li>
 <li><a href="#_micronaut_segment">2.11. Micronaut Segment</a></li>
-<li><a href="#_micronaut_snitch">2.12. Micronaut Snitch</a></li>
-<li><a href="#_micronaut_worker">2.13. Micronaut Worker</a></li>
+<li><a href="#_micronaut_slack">2.12. Micronaut Slack</a></li>
+<li><a href="#_micronaut_snitch">2.13. Micronaut Snitch</a></li>
+<li><a href="#_micronaut_worker">2.14. Micronaut Worker</a></li>
 </ul>
 </li>
 <li><a href="#_testing_libraries">3. Testing Libraries</a>
@@ -152,8 +153,8 @@ to ensure you are using the latest versions of the libraries:</p>
 <div class="listingblock primary">
 <div class="title">Gradle</div>
 <div class="content">
-<pre class="prettyprint highlight"><code data-lang="groovy">dependnecies {
-    implementation platform('com.agorapulse:agorapulse-oss:2022.5.10.1359')
+<pre class="prettyprint highlight"><code data-lang="groovy">dependencies {
+    implementation platform('com.agorapulse:agorapulse-oss:2022.9.27.0443')
 }</code></pre>
 </div>
 </div>
@@ -165,7 +166,7 @@ to ensure you are using the latest versions of the libraries:</p>
         &lt;dependency&gt;
             &lt;groupId&gt;com.agorapulse&lt;/groupId&gt;
             &lt;artifactId&gt;agorapulse-oss&lt;/artifactId&gt;
-            &lt;version&gt;2022.5.10.1359&lt;/version&gt;
+            &lt;version&gt;2022.9.27.0443&lt;/version&gt;
             &lt;type&gt;pom&lt;/type&gt;
             &lt;scope&gt;import&lt;/scope&gt;
         &lt;/dependency&gt;
@@ -280,7 +281,17 @@ The main additional feature is the ability to do more customisation to the Micro
 </div>
 </div>
 <div class="sect2">
-<h3 id="_micronaut_snitch"><a class="anchor" href="#_micronaut_snitch"></a>2.12. Micronaut Snitch</h3>
+<h3 id="_micronaut_slack"><a class="anchor" href="#_micronaut_slack"></a>2.12. Micronaut Slack</h3>
+<div class="paragraph">
+<p>Micronaut Slack is more idiomatic alternative to <a href="https://slack.dev/java-slack-sdk/guides/supported-web-frameworks#micronaut">Bolt Micronaut</a> library
+for <a href="https://api.slack.com">Slack API</a> integration into the Micronaut.</p>
+</div>
+<div class="paragraph">
+<p><a href="https://github.com/agorapulse/micronaut-slack#micronaut-slack">Read more</a></p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_micronaut_snitch"><a class="anchor" href="#_micronaut_snitch"></a>2.13. Micronaut Snitch</h3>
 <div class="paragraph">
 <p>Micronaut snitch helps you to keep track of running asynchronous jobs (Quartz, Scheduled).</p>
 </div>
@@ -289,7 +300,7 @@ The main additional feature is the ability to do more customisation to the Micro
 </div>
 </div>
 <div class="sect2">
-<h3 id="_micronaut_worker"><a class="anchor" href="#_micronaut_worker"></a>2.13. Micronaut Worker</h3>
+<h3 id="_micronaut_worker"><a class="anchor" href="#_micronaut_worker"></a>2.14. Micronaut Worker</h3>
 <div class="paragraph">
 <p>Micronaut Worker is a library for advanced scheduling and work distribution in Micronaut.</p>
 </div>
@@ -455,8 +466,8 @@ which forbids usage so instance and static GORM API in favour of data services.<
 </div>
 <div id="footer">
 <div id="footer-text">
-Version 2022.5.10.1359<br>
-Last updated 2022-05-10 14:34:34 UTC
+Version 2022.9.27.0443<br>
+Last updated 2022-09-27 04:44:12 UTC
 </div>
 </div>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.css">
