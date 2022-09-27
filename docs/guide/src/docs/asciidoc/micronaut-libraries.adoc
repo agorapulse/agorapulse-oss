@@ -83,6 +83,14 @@ The Segment library allows you to integrate https://segment.com/[Segment] in you
 
 https://github.com/agorapulse/micronaut-segment#segment-micronaut-lib[Read more]
 
+[[_micronaut_slack]]
+== Micronaut Slack
+
+Micronaut Slack is more idiomatic alternative to https://slack.dev/java-slack-sdk/guides/supported-web-frameworks#micronaut[Bolt Micronaut] library
+for https://api.slack.com[Slack API] integration into the Micronaut.
+
+https://github.com/agorapulse/micronaut-slack#micronaut-slack[Read more]
+
 [[_micronaut_snitch]]
 == Micronaut Snitch
 

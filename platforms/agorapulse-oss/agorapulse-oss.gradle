@@ -74,6 +74,7 @@ dependencies {
         api "com.agorapulse:micronaut-bigquery-mock:${project['micronaut.bigquery.version']}"
         api "com.agorapulse:micronaut-recurly:${project['micronaut.recurly.version']}"
         api "com.agorapulse:micronaut-console:${project['micronaut.console.version']}"
+        api "com.agorapulse:micronaut-slack:${project['micronaut.slack.version']}"
         api "com.agorapulse:micronaut-worker:${project['micronaut.worker.version']}"
         api "com.agorapulse:micronaut-worker-queues-sqs-v1:${project['micronaut.worker.version']}"
         api "com.agorapulse:micronaut-worker-executor-redis:${project['micronaut.worker.version']}"
