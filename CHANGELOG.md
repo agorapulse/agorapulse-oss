@@ -1,5 +1,10 @@
 ## Next Release
 
+### Micronaut Slack 1.0.3-micronaut-1.0
+
+* do not set empty bot token
+* fixed test dependencies wrong configuration
+
 ### Micronaut Slack 1.0.2-micronaut-1.0
 
 * S3 support
