@@ -1,5 +1,9 @@
 ## Next Release
 
+### Groovy REST Unit Test Framework 1.2.5
+
+* fixed closure parameters definition for Groovy extensions
+
 ### Micronaut Slack 1.0.3-micronaut-1.0
 
 * do not set empty bot token
