@@ -1,5 +1,9 @@
 ## Next Release
 
+### Agorapulse AWS SDK 2.0.5-micronaut-1.0
+
+* Added container credentials provider into the default chain #119 
+
 ### Groovy REST Unit Test Framework 1.2.5
 
 * fixed closure parameters definition for Groovy extensions
