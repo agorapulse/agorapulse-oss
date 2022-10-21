@@ -1,5 +1,9 @@
 ## Next Release
 
+### Micronaut Slack 1.0.4-micronaut-1.0
+
+* automatic event's duplicate filtering
+
 ### Agorapulse AWS SDK 2.0.5-micronaut-1.0
 
 * Added container credentials provider into the default chain #119 
