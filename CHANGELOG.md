@@ -1,5 +1,9 @@
 ## Next Release
 
+### Micronaut Grails 3.1.3-micronaut-1.0
+
+* fixed converting of properties to map with multiple values (e.g. sql settings)
+
 ### Micronaut Slack 1.0.4-micronaut-1.0
 
 * automatic event's duplicate filtering
