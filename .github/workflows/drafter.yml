@@ -17,8 +17,8 @@ jobs:
           CHANGELOG="${CHANGELOG//'%'/'%25'}"
           CHANGELOG="${CHANGELOG//$'\n'/'%0A'}"
           CHANGELOG="${CHANGELOG//$'\r'/'%0D'}"
-          echo "::set-output name=changelog::$(echo "$CHANGELOG")"
-          echo "::set-output name=date::$(echo "$(date +"%Y.%-m.%-d.%H%M")")"
+          echo "{changelog}={$(echo "$CHANGELOG")}" >> $GITHUB_OUTPUT
+          echo "{date}={$(echo "$(date +"%Y.%-m.%-d.%H%M")")}" >> $GITHUB_OUTPUT
       - name: Print Changelog
         run: |
           echo "date: ${{ steps.text.outputs.date }}"
