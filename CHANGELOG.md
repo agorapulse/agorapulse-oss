@@ -1,5 +1,9 @@
 ## Next Release
 
+### Agorapulse AWS SDK 2.0.6-micronaut-1.0
+
+* Lambda Client: throw exception when function error is returned
+
 ### Micronaut Grails 3.1.3-micronaut-1.0
 
 * fixed converting of properties to map with multiple values (e.g. sql settings)
