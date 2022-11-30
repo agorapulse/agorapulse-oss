@@ -1,5 +1,9 @@
 ## Next Release
 
+### Agorapulse AWS SDK 2.0.7-micronaut-1.0
+
+* ability to define env variables for integration Localstack container
+
 ### Agorapulse AWS SDK 2.0.6-micronaut-1.0
 
 * Lambda Client: throw exception when function error is returned
