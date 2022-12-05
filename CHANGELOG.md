@@ -1,5 +1,10 @@
 ## Next Release
 
+### Agorapulse AWS SDK 2.0.8-micronaut-1.0
+
+* set timeout for `@LambdaClient` clients
+* CloudWatch Logs integration
+
 ### Agorapulse AWS SDK 2.0.7-micronaut-1.0
 
 * ability to define env variables for integration Localstack container
