@@ -1,5 +1,9 @@
 ## Next Release
 
+### Agorapulse AWS SDK 2.0.9-micronaut-1.0
+
+* upgraded default Localstack container to `1.3.0`
+
 ### Agorapulse AWS SDK 2.0.8-micronaut-1.0
 
 * set timeout for `@LambdaClient` clients
