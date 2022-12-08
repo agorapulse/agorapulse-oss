@@ -1,5 +1,9 @@
 ## Next Release
 
+### Micronaut Worker 1.2.3-micronaut-1.0
+
+* adde Micronaut Worker Management library to expose `/jobs` endpoint
+
 ### Agorapulse AWS SDK 2.0.9-micronaut-1.0
 
 * upgraded default Localstack container to `1.3.0`
