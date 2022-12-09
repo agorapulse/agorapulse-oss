@@ -1,5 +1,9 @@
 ## Next Release
 
+### Micronaut Worker 1.2.4-micronaut-1.0
+
+
+
 ### Micronaut Worker 1.2.3-micronaut-1.0
 
 * adde Micronaut Worker Management library to expose `/jobs` endpoint
