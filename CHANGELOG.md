@@ -1,5 +1,9 @@
 ## Next Release
 
+### Micronaut Newrelic Library 1.2.0-micronaut-1.0
+
+* new (preferred) declarative service client
+
 ### Micronaut Worker 1.2.4-micronaut-1.0
 
 
