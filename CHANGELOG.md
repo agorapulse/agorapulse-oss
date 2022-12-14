@@ -1,5 +1,10 @@
 ## Next Release
 
+### Micronaut Newrelic Library 1.2.1-micronaut-1.0
+
+* NewRelic token must be set to instantiate the filter
+* Filter must be instantiated to instantiate the HTTP clients
+
 ### Micronaut Newrelic Library 1.2.0-micronaut-1.0
 
 * new (preferred) declarative service client
