@@ -1,5 +1,9 @@
 ## Next Release
 
+### Micronaut Newrelic Library 1.2.2-micronaut-1.0
+
+* use explicit `@Nullable` for configuration properties
+
 ### Micronaut Newrelic Library 1.2.1-micronaut-1.0
 
 * NewRelic token must be set to instantiate the filter
