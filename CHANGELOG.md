@@ -1,5 +1,9 @@
 ## Next Release
 
+### Micronaut Facebook SDK 0.5.3-micornaut-1.0
+
+* fixed configuration 
+
 ### Micronaut Newrelic Library 1.2.2-micronaut-1.0
 
 * use explicit `@Nullable` for configuration properties
