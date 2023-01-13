@@ -1,5 +1,9 @@
 ## Next Release
 
+### Agorapulse AWS SDK 2.0.10-micronaut-1.0
+
+* ability to specify container for integration testing
+
 ### Micronaut Facebook SDK 0.5.3-micornaut-1.0
 
 * fixed configuration 
