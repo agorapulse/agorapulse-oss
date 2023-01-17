@@ -1,5 +1,9 @@
 ## Next Release
 
+### Micronaut Worker 1.2.6-micronaut-1.0
+
+* do not throw exception from method processor
+
 ### Micronaut Worker 1.2.5-micronaut-1.0
 
 * replaced `ConversionService`  with `Environment` as workaround to https://github.com/micronaut-projects/micronaut-core/issues/7948
