@@ -1,5 +1,9 @@
 ## Next Release
 
+### Micronaut Worker 1.2.5-micronaut-1.0
+
+* replaced `ConversionService`  with `Environment` as workaround to https://github.com/micronaut-projects/micronaut-core/issues/7948
+
 ### Agorapulse AWS SDK 2.0.10-micronaut-1.0
 
 * ability to specify container for integration testing
