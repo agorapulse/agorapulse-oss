@@ -1,5 +1,9 @@
 ## Next Release
 
+### Agorapulse AWS SDK 2.1.0-micronaut-1.0
+
+- Move DynamoDB DAX to its own library
+
 ### Micronaut Worker 1.2.6-micronaut-1.0
 
 * do not throw exception from method processor
