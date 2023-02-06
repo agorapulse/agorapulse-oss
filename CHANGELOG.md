@@ -1,5 +1,9 @@
 ## Next Release
 
+### Agorapulse AWS SDK 2.1.3-micronaut-1.0
+
+- Retry release after Sonatype publishing issue
+
 ### Agorapulse AWS SDK 2.1.1-micronaut-1.0
 
 - Add support for SNS Fifo topics
