@@ -11,12 +11,6 @@ DynamoDB, Kinesis, S3, SES, SNS, SQS and STS.
 
 https://agorapulse.github.io/micronaut-aws-sdk/[Read more]
 
-[[_micronaut_bigquery]]
-== Micronaut BigQuery
-
-Micronaut BigQuery library helps to simplify usage of https://cloud.google.com/bigquery/[BigQuery] in the Micronaut applications.
-
-https://agorapulse.github.io/micronaut-bigquery/[Read more]
 
 [[_micronaut_console]]
 == Micronaut Console
