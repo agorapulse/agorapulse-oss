@@ -9,30 +9,33 @@ jobs:
     name: Prepare Next Release
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - name: Extract Text
-        id: text
-        run: |
-          export CHANGELOG="$(csplit -s -f changelog CHANGELOG.md "/^## .*$/" "{2}" && cat changelog01 | egrep -v "^## .*$" | sed "s/^$//" | sed "s/\* //g" | sed "s/^ *//g")"
-          CHANGELOG="${CHANGELOG//'%'/'%25'}"
-          CHANGELOG="${CHANGELOG//$'\n'/'%0A'}"
-          CHANGELOG="${CHANGELOG//$'\r'/'%0D'}"
-          echo "changelog=$(echo "$CHANGELOG")" >> $GITHUB_OUTPUT
-          echo "date=$(echo "$(date +"%Y.%-m.%-d.%H%M")")" >> $GITHUB_OUTPUT
-      - name: Print Changelog
-        run: |
-          echo "date: ${{ steps.text.outputs.date }}"
-          echo "${{ steps.text.outputs.changelog }}"
-      - name: Delete drafts
-        uses: hugo19941994/delete-draft-releases@v0.1.0
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Draft Next Release
-        uses: meeDamian/github-release@2.0
-        with:
-          tag: ${{ steps.text.outputs.date }}
-          name: ${{ steps.text.outputs.date }}
-          token: ${{ secrets.GITHUB_TOKEN }}
-          body: ${{ steps.text.outputs.changelog }}
-          draft: true
-          allow_override: true
+    - uses: actions/checkout@v2
+    - name: Extract Text
+      id: text
+      run: |
+        export CHANGELOG="$(csplit -s -f changelog CHANGELOG.md "/^## .*$/" "{2}" && cat changelog01 | egrep -v "^## .*$" | sed "s/^$//" | sed "s/\* //g" | sed "s/^ *//g")"
+        echo "CHANGELOG=$CHANGELOG"
+        echo "changelog<<EOF" >> $GITHUB_OUTPUT
+        echo "$CHANGELOG" >> $GITHUB_OUTPUT
+        echo "EOF" >> $GITHUB_OUTPUT
+        echo "date=$(echo "$(date +"%Y.%-m.%-d.%H%M")")" >> $GITHUB_OUTPUT
+    - name: Print Changelog
+      run: |
+        echo "date: ${{ steps.text.outputs.date }}"
+        echo "${{ steps.text.outputs.changelog }}"
+    - name: Delete drafts
+      uses: hugo19941994/delete-draft-releases@v0.1.0
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Draft Next Release
+      uses: meeDamian/github-release@2.0
+      with:
+        tag: ${{ steps.text.outputs.date }}
+        name: ${{ steps.text.outputs.date }}
+        token: ${{ secrets.GITHUB_TOKEN }}
+        body: |
+          <!-- Please, when releasing OSS libraries, then wait until they are really available in the Maven Central. -->
+          <!-- You can use https://search.maven.org website. -->
+          ${{ steps.text.outputs.changelog }}
+        draft: true
+        allow_override: true
