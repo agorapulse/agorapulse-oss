@@ -1,5 +1,9 @@
 ## Next Release
 
+### Agorapulse AWS SDK 2.1.4-micronaut-1.0
+
+- Allow path style URLs for S3
+
 ### Agorapulse AWS SDK 2.1.3-micronaut-1.0
 
 - Retry release after Sonatype publishing issue
