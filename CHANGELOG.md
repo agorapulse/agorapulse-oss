@@ -1,5 +1,9 @@
 ## Next Release
 
+### Micronaut Facebook SDK 0.6.0-micronaut-1.0
+
+- Updates the restfb to the latest 2023.3.0
+
 ### Agorapulse AWS SDK 2.1.4-micronaut-1.0
 
 - Allow path style URLs for S3
