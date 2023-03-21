@@ -1,5 +1,9 @@
 ## Next Release
 
+### Micronaut Permissions 1.0.4-micronaut-1.0
+
+- allow null iterable
+
 ### Micronaut Permissions 1.0.3-micronaut-1.0
 
 - verify all method arguments
