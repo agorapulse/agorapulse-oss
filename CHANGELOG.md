@@ -1,5 +1,9 @@
 ## Next Release
 
+### Micronaut Permissions 1.0.3-micronaut-1.0
+
+- verify all method arguments
+
 ### Micronaut Facebook SDK 0.6.0-micronaut-1.0
 
 - Updates the restfb to the latest 2023.3.0
