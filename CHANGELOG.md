@@ -1,5 +1,9 @@
 ## Next Release
 
+### Micronaut Log4AWS 2.1.0-micronaut-1.0
+
+
+
 ### Micronaut Permissions 1.0.4-micronaut-1.0
 
 - allow null iterable
