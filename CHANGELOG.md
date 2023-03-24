@@ -1,5 +1,10 @@
 ## Next Release
 
+### Groovy REST Unit Test Framework 1.3.0
+
+- ability to retrieve the response text
+- automatic closing of Gru instance after the feature method in Spock
+
 ### Micronaut Permissions 1.0.5-micronaut-1.0
 
 - fixed cast of `Map` to an `Iterable`
