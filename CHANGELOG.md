@@ -1,5 +1,9 @@
 ## Next Release
 
+### Micronaut Permissions 1.0.5-micronaut-1.0
+
+- fixed cast of `Map` to an `Iterable`
+
 ### Micronaut Log4AWS 2.1.0-micronaut-1.0
 
 
