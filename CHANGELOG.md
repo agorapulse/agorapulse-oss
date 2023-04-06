@@ -1,5 +1,14 @@
 ## Next Release
 
+### Agorapulse AWS SDK 2.1.5-micronaut-1.0
+
+## What's Changed
+* force path style for itegration tests by @musketyr in https://github.com/agorapulse/micronaut-aws-sdk/pull/161
+* prevent hyphening keys in the localstack.env.* configuration map by @wololock in https://github.com/agorapulse/micronaut-aws-sdk/pull/162
+
+
+**Full Changelog**: https://github.com/agorapulse/micronaut-aws-sdk/compare/2.1.4...2.1.5
+
 ### Groovy REST Unit Test Framework 1.3.0
 
 - ability to retrieve the response text
