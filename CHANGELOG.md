@@ -1,5 +1,9 @@
 ## Next Release
 
+### Micronaut Permissions 1.1.0-micronaut-1.0
+
+- Add annotation to check permission on result
+
 ### Agorapulse AWS SDK 2.1.5-micronaut-1.0
 
 ## What's Changed
