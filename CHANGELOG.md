@@ -1,5 +1,15 @@
 ## Next Release
 
+### Groovy REST Unit Test Framework 1.3.1
+
+## What's Changed
+* Fix checking headers and cookies in response from redirection by @wololock in https://github.com/agorapulse/gru/pull/82
+
+## New Contributors
+* @wololock made their first contribution in https://github.com/agorapulse/gru/pull/82
+
+**Full Changelog**: https://github.com/agorapulse/gru/compare/1.3.0...1.3.1
+
 ### Micronaut Permissions 1.1.0-micronaut-1.0
 
 - Add annotation to check permission on result
