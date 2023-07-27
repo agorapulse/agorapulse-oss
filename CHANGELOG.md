@@ -1,5 +1,9 @@
 ## Next Release
 
+### Micronaut Permissions 1.1.1-micronaut-1.0
+
+- Add inherited annotation to ResultRequiresPermission annotation to use it on interfaces.
+
 ### Groovy REST Unit Test Framework 1.3.1
 
 ## What's Changed
