@@ -1,5 +1,9 @@
 ## Next Release
 
+### Micronaut Worker 1.3.0-micronaut-1.0
+
+* default waiting time set to `20s` (only applicable for SQS queues)
+
 ### Amazon Web Services SDK Grails Plugin 2.4.16
 
 * use pay per request for DynamoDB tables by @musketyr in https://github.com/agorapulse/grails-aws-sdk/pull/127
