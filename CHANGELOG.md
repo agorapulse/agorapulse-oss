@@ -1,5 +1,9 @@
 ## Next Release
 
+### Agorapulse AWS SDK 2.1.6-micronaut-1.0
+
+* ability to specify tags for newly created queues
+
 ### Micronaut Worker 1.3.0-micronaut-1.0
 
 * default waiting time set to `20s` (only applicable for SQS queues)
