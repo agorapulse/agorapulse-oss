@@ -1,5 +1,10 @@
 ## Next Release
 
+### Micronaut Log4AWS 3.0.0-micronaut-1.0
+
+* enforcing versions from Micronaut BOM that forces Slf4j 1.7.x
+* using `log4j-slf4j-impl` instead of `log4j-slf4j18-impl` because of the change above
+
 ### Agorapulse AWS SDK 2.1.6-micronaut-1.0
 
 * ability to specify tags for newly created queues
