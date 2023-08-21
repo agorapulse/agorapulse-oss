@@ -1,5 +1,13 @@
 ## Next Release
 
+### Agorapulse AWS SDK 2.1.7-micronaut-1.0
+
+## What's Changed
+* Allow adding tags on emails by @DKarim in https://github.com/agorapulse/micronaut-aws-sdk/pull/172
+
+
+**Full Changelog**: https://github.com/agorapulse/micronaut-aws-sdk/compare/2.1.6...2.1.7
+
 ### Micronaut Log4AWS 3.0.0-micronaut-1.0
 
 * enforcing versions from Micronaut BOM that forces Slf4j 1.7.x
