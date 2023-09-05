@@ -1,5 +1,13 @@
 ## Next Release
 
+### Agorapulse AWS SDK 2.1.10-micronaut-1.0
+
+## What's Changed
+* Allow adding configuration set on emails for SDK v2 by @DKarim in https://github.com/agorapulse/micronaut-aws-sdk/pull/178
+
+
+**Full Changelog**: https://github.com/agorapulse/micronaut-aws-sdk/compare/2.1.8...2.1.10
+
 ### Agorapulse AWS SDK 2.1.9-micronaut-1.0
 
 ## What's Changed
