@@ -1,5 +1,9 @@
 ## Next Release
 
+### Agorapulse AWS SDK 2.1.11-micronaut-1.0
+
+* ability to disable kinesis listeners
+
 ### Agorapulse AWS SDK 2.1.10-micronaut-1.0
 
 ## What's Changed
