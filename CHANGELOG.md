@@ -1,5 +1,12 @@
 ## Next Release
 
+### Groovy REST Unit Test Framework 1.4.0
+
+* upgraded build to Gradle 7.x
+* upgraded Kotlin to 1.8.x
+* upgraded Micronaut to 3.x
+* upgraded Grails to 5.x
+
 ### Agorapulse AWS SDK 2.1.11-micronaut-1.0
 
 * ability to disable kinesis listeners
