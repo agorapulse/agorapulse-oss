@@ -1,5 +1,9 @@
 ## Next Release
 
+### Micronaut Grails 3.2.0-micronaut-1.0
+
+* minimal Grails 5.x compatibility by setting the `setAllowCircularReferences(true)` if the method exists
+
 ### Groovy REST Unit Test Framework 1.4.0
 
 * upgraded build to Gradle 7.x
