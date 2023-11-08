@@ -1,5 +1,9 @@
 ## Next Release
 
+### Micronaut Grails 3.3.0-micronaut-1.0
+
+* reworked `MicronautGrailsAppServletInitializer` to match the latest from the Grails codebase
+
 ### Micronaut Grails 3.2.0-micronaut-1.0
 
 * minimal Grails 5.x compatibility by setting the `setAllowCircularReferences(true)` if the method exists
