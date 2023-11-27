@@ -1,5 +1,15 @@
 ## Next Release
 
+### Micronaut Newrelic Library 1.2.3-micronaut-1.0
+
+## What's Changed
+* Add authentication on service client by @DKarim in https://github.com/agorapulse/micronaut-newrelic/pull/29
+
+## New Contributors
+* @DKarim made their first contribution in https://github.com/agorapulse/micronaut-newrelic/pull/29
+
+**Full Changelog**: https://github.com/agorapulse/micronaut-newrelic/compare/1.2.2...1.2.3
+
 ### Micronaut Grails 3.3.0-micronaut-1.0
 
 * reworked `MicronautGrailsAppServletInitializer` to match the latest from the Grails codebase
