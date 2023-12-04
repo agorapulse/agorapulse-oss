@@ -1,5 +1,23 @@
 ## Next Release
 
+### Groovy REST Unit Test Framework 2.0.0
+
+
+## Breaking Changes
+
+* The minimal Java version has been set to Java 11
+* The Micronaut module has been upgraded to Micronaut 4.x, Groovy 4.x and Java 17
+* The HTTP module has been removed as the `Http` client is now part of the core `gru` package
+* The original HTTP module has been renamed to `gru-okhttp` and the client accordingly to `OkHttp`
+* The libraries required to evaluate HTML responses has been moved to compile only dependencies
+* Micronaut module now uses `micronaut-http-client` instead of the default HTTP one
+
+
+## New Features
+
+* Small improvements in the Kotlin DSL
+* No need to specify the reference class when calling `Gru.create()` or `Http.create()`. The class is automatically detected using the stack walker API.
+
 ### Micronaut Newrelic Library 1.2.3-micronaut-1.0
 
 ## What's Changed
