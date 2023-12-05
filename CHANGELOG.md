@@ -1,5 +1,9 @@
 ## Next Release
 
+### Groovy REST Unit Test Framework 2.0.1
+
+* made Micronaut dependencies compile only
+
 ### Groovy REST Unit Test Framework 2.0.0
 
 
