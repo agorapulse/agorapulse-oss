@@ -1,5 +1,9 @@
 ## Next Release
 
+### HTTP Interactions Test Framework 2.0.2
+
+* fixed Micronaut HTTP client error handling
+
 ### Groovy REST Unit Test Framework 2.0.1
 
 * made Micronaut dependencies compile only
