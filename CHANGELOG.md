@@ -1,5 +1,9 @@
 ## Next Release
 
+### HTTP Interactions Test Framework 2.0.4
+
+* fixed situation when Micronaut HTTP client wasn't on the classpath
+
 ### HTTP Interactions Test Framework 2.0.3
 
 * fixed Micronaut HTTP client headers not being propagated
