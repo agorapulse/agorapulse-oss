@@ -1,5 +1,9 @@
 ## Next Release
 
+### Micronaut Permissions 2.0.0
+
+* upgraded to Micronaut 4.x
+
 ### Micronaut Permissions 1.2.0-micronaut-1.0
 
 * ability to grant privileges for any object (useful with `@ResultRequiresPermissions`)
