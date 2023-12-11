@@ -1,5 +1,9 @@
 ## Next Release
 
+### Micronaut Permissions 1.2.0-micronaut-1.0
+
+* ability to grant privileges for any object (useful with `@ResultRequiresPermissions`)
+
 ### HTTP Interactions Test Framework 2.0.4
 
 * fixed situation when Micronaut HTTP client wasn't on the classpath
