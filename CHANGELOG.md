@@ -1,5 +1,9 @@
 ## Next Release
 
+### Micronaut Rethrow 2.0.0
+
+**Breaking Change** Upgrade to Micronaut 4.x
+
 ### Micronaut Permissions 2.0.0
 
 * upgraded to Micronaut 4.x
