@@ -1,5 +1,9 @@
 ## Next Release
 
+### Agorapulse AWS SDK 3.0.1
+
+* repeated release due previous publishing exception
+
 ### Agorapulse AWS SDK 3.0.0
 
 **Breaking change** Migrated to Micronaut 4.x
