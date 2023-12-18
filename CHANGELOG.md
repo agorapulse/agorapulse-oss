@@ -1,5 +1,9 @@
 ## Next Release
 
+### Micronaut Newrelic Library 2.0.0
+
+**Breaking Change** Upgrade to Micronaut 4.x
+
 ### Micronaut Snitch 2.0.0
 
 **Breaking Change** Upgrade to Micronaut 4.x
