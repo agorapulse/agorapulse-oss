@@ -1,5 +1,9 @@
 ## Next Release
 
+### Agorapulse AWS SDK 3.0.0
+
+**Breaking change** Migrated to Micronaut 4.x
+
 ### Micronaut Newrelic Library 2.0.0
 
 **Breaking Change** Upgrade to Micronaut 4.x
