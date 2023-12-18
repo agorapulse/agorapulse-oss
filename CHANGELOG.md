@@ -1,5 +1,9 @@
 ## Next Release
 
+### Micronaut Snitch 2.0.0
+
+**Breaking Change** Upgrade to Micronaut 4.x
+
 ### Micronaut Segment Library 2.0.0-micronaut-1.0
 
 *Breaking Change Migrated to Micronaut 4.x
