@@ -1,5 +1,9 @@
 ## Next Release
 
+### Micronaut Log4AWS 4.0.0
+
+* Upgraded to Micronaut 4.x and Java 17
+
 ### Micronaut Slack 2.0.0
 
 **Breaking change** Migrated to Micronaut 4.x and Java 17
