@@ -1,5 +1,9 @@
 ## Next Release
 
+### Micronaut Slack 2.0.0
+
+**Breaking change** Migrated to Micronaut 4.x and Java 17
+
 ### Agorapulse AWS SDK 3.0.1
 
 * repeated release due previous publishing exception
