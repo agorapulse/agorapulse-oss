@@ -1,5 +1,9 @@
 ## Next Release
 
+### Micronaut Worker 2.0.0
+
+* **Breaking Change** Migrated to Micronaut 4.x
+
 ### Micronaut Log4AWS 4.0.0
 
 * Upgraded to Micronaut 4.x and Java 17
