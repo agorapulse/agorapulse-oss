@@ -1,5 +1,9 @@
 ## Next Release
 
+### Micronaut Worker 2.0.1
+
+* test release after re-enabling BOM synchronization, no code change
+
 ### Micronaut Worker 2.0.0
 
 * **Breaking Change** Migrated to Micronaut 4.x
