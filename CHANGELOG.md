@@ -1,5 +1,9 @@
 ## Next Release
 
+### Agorapulse AWS SDK 3.0.2
+
+* added ability to specify using `base64` encoding for multipart emails
+
 ### Micronaut Worker 2.0.1
 
 * test release after re-enabling BOM synchronization, no code change
