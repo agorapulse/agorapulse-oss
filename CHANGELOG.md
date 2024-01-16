@@ -1,5 +1,9 @@
 ## Next Release
 
+### Agorapulse AWS SDK 2.1.12-micronaut-1.0
+
+* ability to encode multipart email body using base64
+
 ### Agorapulse AWS SDK 3.0.2
 
 * added ability to specify using `base64` encoding for multipart emails
