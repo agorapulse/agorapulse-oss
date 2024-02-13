@@ -1,5 +1,14 @@
 ## Next Release
 
+### Micronaut Facebook SDK 1.0.2
+
+## What's Changed
+* Migrated to Micronaut 4.x by @musketyr in https://github.com/agorapulse/micronaut-facebook-sdk/pull/14
+* Upgrade Kordamp to 0.54.0 by @musketyr in https://github.com/agorapulse/micronaut-facebook-sdk/pull/15
+
+
+**Full Changelog**: https://github.com/agorapulse/micronaut-facebook-sdk/compare/0.6.0...1.0.2
+
 ### Agorapulse AWS SDK 2.1.12-micronaut-1.0
 
 * ability to encode multipart email body using base64
