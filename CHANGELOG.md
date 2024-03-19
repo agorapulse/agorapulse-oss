@@ -1,5 +1,13 @@
 ## Next Release
 
+### HTTP Interactions Test Framework 2.0.6
+
+## What's Changed
+* Increase default Gru Micronaut HTTP client timeout by @musketyr in https://github.com/agorapulse/gru/pull/100
+
+
+**Full Changelog**: https://github.com/agorapulse/gru/compare/2.0.5...2.0.6
+
 ### Micronaut Facebook SDK 1.0.2
 
 ## What's Changed
