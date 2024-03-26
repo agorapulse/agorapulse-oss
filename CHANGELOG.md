@@ -1,5 +1,19 @@
 ## Next Release
 
+### Agorapulse AWS SDK 2.2.0-micronaut-1.0
+
+What changed:
+* **BREAKING: dropped support for Micronaut 1.x and 2.x**
+* the ability to send multipart mime messages with base64 encoding by @musketyr in https://github.com/agorapulse/micronaut-aws-sdk/pull/209
+* [DynamoBD v2] Proper handling nested objects by @musketyr in https://github.com/agorapulse/micronaut-aws-sdk/pull/216
+* [124036] Update kinesis lib to not overide consumerFilterKey by @Irteza-S in https://github.com/agorapulse/micronaut-aws-sdk/pull/215
+* library to provide integration testing for the AWS Lambda functions by @musketyr in https://github.com/agorapulse/micronaut-aws-sdk/pull/217
+
+## New Contributors
+* @Irteza-S made their first contribution in https://github.com/agorapulse/micronaut-aws-sdk/pull/215
+
+**Full Changelog**: https://github.com/agorapulse/micronaut-aws-sdk/compare/2.1.12...2.2.0
+
 ### Micronaut Facebook SDK 1.0.2
 
 ## What's Changed
