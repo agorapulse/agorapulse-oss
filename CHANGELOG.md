@@ -1,5 +1,9 @@
 ## Next Release
 
+### Micronaut Facebook SDK 1.0.3
+
+* Made Facebook ID in the configuration optional
+
 ### Micronaut Facebook SDK 1.0.2
 
 ## What's Changed
