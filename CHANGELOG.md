@@ -1,5 +1,13 @@
 ## Next Release
 
+### HTTP Interactions Test Framework 2.1.2
+
+## What's Changed
+* Supplier for JDK Http client builder by @musketyr in https://github.com/agorapulse/gru/pull/104
+
+
+**Full Changelog**: https://github.com/agorapulse/gru/compare/2.1.1...2.1.2
+
 ### Micronaut Facebook SDK 1.0.2
 
 ## What's Changed
