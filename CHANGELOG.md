@@ -1,5 +1,13 @@
 ## Next Release
 
+### Micronaut Newrelic Library 2.0.7
+
+## What's Changed
+* Clear events stored in FallbackNewRelicInsightsService on refresh by @musketyr in https://github.com/agorapulse/micronaut-newrelic/pull/39
+
+
+**Full Changelog**: https://github.com/agorapulse/micronaut-newrelic/compare/2.0.6...2.0.7
+
 ### Micronaut Facebook SDK 1.0.2
 
 ## What's Changed
