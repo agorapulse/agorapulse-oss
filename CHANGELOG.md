@@ -1,5 +1,15 @@
 ## Next Release
 
+### Agorapulse AWS SDK 3.3.0
+
+## What's Changed
+* DynamoDb Converters v2 Improvements by @musketyr in https://github.com/agorapulse/micronaut-aws-sdk/pull/263
+  * automatic replacing empty string sets with `null`
+  * new `@ConvertedJson` annotation as a successor of `DynamoDBTypeConvertedJson`
+
+
+**Full Changelog**: https://github.com/agorapulse/micronaut-aws-sdk/compare/3.2.0...3.3.0
+
 ### Micronaut Facebook SDK 1.0.2
 
 ## What's Changed
