@@ -1,5 +1,13 @@
 ## Next Release
 
+### Micronaut Worker 2.0.3
+
+## What's Changed
+* Support for sending produced messages in batch by @musketyr in https://github.com/agorapulse/micronaut-worker/pull/30
+
+
+**Full Changelog**: https://github.com/agorapulse/micronaut-worker/compare/2.0.2...2.0.3
+
 ### Micronaut Facebook SDK 1.0.2
 
 ## What's Changed
