@@ -1,5 +1,6 @@
 name: Libraries Watcher
 on:
+  workflow_dispatch:
   repository_dispatch:
     types: [ap-new-version-released-event]
 jobs:
@@ -26,7 +27,7 @@ jobs:
         with:
           token: ${{ secrets.AGORAPULSE_BOT_PERSONAL_TOKEN }}
           commit-message: Upgraded to ${{ github.event.client_payload.github.event.repository.description }} ${{ github.event.client_payload.version }}
-          title: '[${{ github.event.client_payload.github.event.repository.description }}] Upgraded to ${{ github.event.client_payload.github.event.repository.description }} ${{ github.event.client_payload.version }}'
+          title: "[${{ github.event.client_payload.github.event.repository.description }}] Upgraded to ${{ github.event.client_payload.github.event.repository.description }} ${{ github.event.client_payload.version }}"
           body: |
             ${{ github.event.client_payload.github.event.release.body }}
 
