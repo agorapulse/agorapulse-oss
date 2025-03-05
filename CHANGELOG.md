@@ -1,5 +1,15 @@
 ## Next Release
 
+### Micronaut Log4AWS 4.0.2
+
+## What's Changed
+* [branch sc56939] fix senty flooding by @musketyr in https://github.com/agorapulse/micronaut-log4aws/pull/11
+* fixed licenses for 2025 by @musketyr in https://github.com/agorapulse/micronaut-log4aws/pull/40
+* always flush sentry by @musketyr in https://github.com/agorapulse/micronaut-log4aws/pull/39
+
+
+**Full Changelog**: https://github.com/agorapulse/micronaut-log4aws/compare/4.0.1...4.0.2
+
 ### Micronaut Facebook SDK 1.0.2
 
 ## What's Changed
