@@ -1,5 +1,9 @@
 ## Next Release
 
+### Micronaut Console 5.0.2
+
+Pin gru to 3.0.2 (MN 5.1.0 dependency-chain propagation).
+
 ### Micronaut Facebook SDK 1.0.2
 
 ## What's Changed
