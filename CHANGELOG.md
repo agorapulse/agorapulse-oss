@@ -1,5 +1,9 @@
 ## Next Release
 
+### Micronaut Snitch 3.0.1
+
+Patch release: Micronaut 5.0.6 -> 5.1.0 (Gradle plugin 5.0.2). Also fixes the published guide rendering literal {project-title}/{project-version}.
+
 ### Micronaut Facebook SDK 1.0.2
 
 ## What's Changed
