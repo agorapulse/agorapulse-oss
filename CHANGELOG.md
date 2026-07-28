@@ -1,5 +1,9 @@
 ## Next Release
 
+### HTTP Interactions Test Framework 3.0.2
+
+Propagates fixt 1.0.1 into gru. Part of the Micronaut 5.1.0 dependency-chain propagation.
+
 ### Micronaut Facebook SDK 1.0.2
 
 ## What's Changed
