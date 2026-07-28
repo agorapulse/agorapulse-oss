@@ -1,5 +1,9 @@
 ## Next Release
 
+### Micronaut Slack 3.0.1
+
+Micronaut 5.1.0 + gru 3.0.2 + guide title fix.
+
 ### Micronaut Facebook SDK 1.0.2
 
 ## What's Changed
