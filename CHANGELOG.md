@@ -1,5 +1,9 @@
 ## Next Release
 
+### Agorapulse Testing Libraries 1.0.1
+
+Fixes the published guide rendering literal {project-title}/{project-version} (adds the project-title/version/author asciidoctor attributes).
+
 ### Micronaut Facebook SDK 1.0.2
 
 ## What's Changed
