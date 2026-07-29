@@ -1,5 +1,16 @@
 ## Next Release
 
+### Micronaut Facebook SDK 1.0.5
+
+Maintenance release of the Micronaut 4.x compatible `1.x` line.
+
+## What's changed
+
+* **Strip restfb request metadata (`access_token` / `appsecret_proof`) from `FacebookClient` exceptions** — backport of #38. `DefaultFacebookApplication.createClient(...)` now wraps every `FacebookClient` with `SecretSafeFacebookClient`, which clears the `InfoData` restfb attaches to thrown `FacebookException`s. That `InfoData` carries the full request URL including the access token and appsecret proof, so an uncaught exception could otherwise leak secrets into logs, Sentry or error responses.
+* **restfb bumped to 2026.7.1** — required by the fix (first release exposing `FacebookException#withInfoData`/`getInfoData`). That bump also removes `WebRequestor#getDebugHeaderInfo()` and retires old Graph API versions such as `v16.0`.
+
+Micronaut 4.2.0 and Java 17 are unchanged on this line. For Micronaut 5.x use the 2.x releases from `master`.
+
 ### Micronaut Facebook SDK 1.0.2
 
 ## What's Changed
