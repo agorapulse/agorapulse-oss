@@ -1,5 +1,15 @@
 ## Next Release
 
+### Micronaut Worker 3.0.4
+
+## What's Changed
+* fix: schedule only the requested jobs in the CLI JobRunner by @DKarim in https://github.com/agorapulse/micronaut-worker/pull/89
+
+## New Contributors
+* @DKarim made their first contribution in https://github.com/agorapulse/micronaut-worker/pull/89
+
+**Full Changelog**: https://github.com/agorapulse/micronaut-worker/compare/3.0.3...3.0.4
+
 ### Micronaut Facebook SDK 1.0.2
 
 ## What's Changed
