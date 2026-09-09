@@ -1,5 +1,14 @@
 ## Next Release
 
+### Agorapulse AWS SDK 5.0.2
+
+## What's Changed
+* docs: add Apache-2.0 LICENSE file by @musketyr in https://github.com/agorapulse/micronaut-aws-sdk/pull/365
+* Support annotation-driven scans for declarative services by @musketyr in https://github.com/agorapulse/micronaut-aws-sdk/pull/366
+
+
+**Full Changelog**: https://github.com/agorapulse/micronaut-aws-sdk/compare/5.0.1...5.0.2
+
 ### Micronaut Facebook SDK 1.0.2
 
 ## What's Changed
