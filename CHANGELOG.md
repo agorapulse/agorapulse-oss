@@ -1,5 +1,13 @@
 ## Next Release
 
+### Agorapulse AWS SDK 5.0.3
+
+## What's Changed
+* fix(sqs): stop dropping messages on cached queue-URL reload by @musketyr in https://github.com/agorapulse/micronaut-aws-sdk/pull/367
+
+
+**Full Changelog**: https://github.com/agorapulse/micronaut-aws-sdk/compare/5.0.2...5.0.3
+
 ### Micronaut Facebook SDK 1.0.2
 
 ## What's Changed
