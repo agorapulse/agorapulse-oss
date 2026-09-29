@@ -9,7 +9,7 @@ jobs:
     name: Prepare Next Release
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v7
     - name: Extract Text
       id: text
       run: |
