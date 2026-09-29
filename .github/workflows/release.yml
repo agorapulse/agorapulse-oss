@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v7
         with:
-          fetch-depth: 0 # checkout v1 fetched the full history and tags (semantic-version, git-publish)
+          fetch-depth: 0 # checkout v1 fetched the full history and tags (git-publish opens the local repo)
       - name: Set up JDK 1.8
         uses: actions/setup-java@v6
         with:
@@ -20,10 +20,18 @@ jobs:
           java-version: 8 # setup-java v2+ dropped the legacy "1.8" syntax
       - name: Semantic Version
         id: version
-        uses: ncipollo/semantic-version-action@v1
+        # Replaces ncipollo/semantic-version-action (no Node 24 release); only the `tag` output is consumed.
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ "$GITHUB_REF" != refs/tags/* ]]; then
+            echo "::error::No tag found in ref or input!"
+            exit 1
+          fi
+          echo "tag=${GITHUB_REF#refs/tags/}" >> "$GITHUB_OUTPUT"
       - name: Decode PGP
         id: write_file
-        uses: timheuer/base64-to-file@v1
+        uses: timheuer/base64-to-file@v2
         with:
           fileName: 'secret.pgp'
           encodedString: ${{ secrets.SIGNING_SECRET_KEY_BASE64 }}
