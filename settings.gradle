@@ -31,6 +31,10 @@ buildscript {
         classpath group: 'org.ajoberstar',          name: 'gradle-git-publish',             version: gitPublishPluginVersion
         classpath group: 'io.github.gradle-nexus',  name: 'publish-plugin',                 version: nexusPluginVersion
     }
+    configurations.classpath {
+        // grgit-core 4.0.1 (required by gradle-git-publish and kordamp's versioning plugin) was only ever published to JCenter
+        resolutionStrategy.force 'org.ajoberstar.grgit:grgit-core:4.1.1'
+    }
 }
 
 apply plugin:  'org.kordamp.gradle.settings'

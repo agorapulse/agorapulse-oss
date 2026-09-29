@@ -47,23 +47,35 @@ jobs:
             name: Jackson
             xpath: /metadata/versioning/latest/text()
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v7
       - name: Fetch Maven descriptor for ${{ matrix.library.name }}
         run: |
           mkdir -p /tmp/maven/${{ matrix.library.path }}
           curl https://repo1.maven.org/maven2/${{ matrix.library.path }}/maven-metadata.xml -o /tmp/maven/${{ matrix.library.path }}/maven-metadata.xml
       - name: Extract the latest version
-        uses: QwerMike/xpath-action@v1
         id: xpath
-        with:
-          filename: /tmp/maven/${{ matrix.library.path }}/maven-metadata.xml
-          expression: ${{ matrix.library.xpath }}
+        env:
+          FILENAME: /tmp/maven/${{ matrix.library.path }}/maven-metadata.xml
+          EXPRESSION: ${{ matrix.library.xpath }}
+        run: |
+          set -euo pipefail
+          command -v xmllint >/dev/null || { sudo apt-get update -qq && sudo apt-get install -y -qq libxml2-utils; }
+          # Same output as the former QwerMike/xpath-action: the selected nodes, and an empty result when nothing matches.
+          err="$RUNNER_TEMP/xpath.err"
+          status=0
+          result=$(xmllint --xpath "$EXPRESSION" "$FILENAME" 2>"$err") || status=$?
+          if (( status != 0 )); then
+            cat "$err" >&2
+            # xmllint exits 10 both on an empty node set (kept as an empty result) and on an invalid expression (fails).
+            grep -q 'XPath set is empty' "$err" || exit "$status"
+          fi
+          { echo "result<<__XPATH_EOF__"; echo "$result"; echo "__XPATH_EOF__"; } >> "$GITHUB_OUTPUT"
       - name: Upgrade  ${{ matrix.library.name }} Number
         run: |
           sed -i 's/^${{ matrix.library.property }}.*/${{ matrix.library.property }} = ${{ steps.xpath.outputs.result }}/' gradle.properties
       - name: Create Pull Request
         id: cpr
-        uses: peter-evans/create-pull-request@v3
+        uses: peter-evans/create-pull-request@v8
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: Upgraded to  ${{ matrix.library.name }} ${{ steps.xpath.outputs.result }}
