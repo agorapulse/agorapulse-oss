@@ -1,5 +1,17 @@
 ## Next Release
 
+### Agorapulse AWS SDK 5.1.0
+
+## What's Changed
+* [sc-208546] Move GitHub Actions off Node 20 by @Mallear in https://github.com/agorapulse/micronaut-aws-sdk/pull/373
+* test(s3): use the Chainguard MinIO image by @sbessah87 in https://github.com/agorapulse/micronaut-aws-sdk/pull/389
+* [sc-213257] Add an opt-in parallel record processor to the Kinesis worker by @sbessah87 in https://github.com/agorapulse/micronaut-aws-sdk/pull/388
+
+## New Contributors
+* @sbessah87 made their first contribution in https://github.com/agorapulse/micronaut-aws-sdk/pull/389
+
+**Full Changelog**: https://github.com/agorapulse/micronaut-aws-sdk/compare/5.0.3...5.1.0
+
 ### Micronaut Facebook SDK 1.0.2
 
 ## What's Changed
